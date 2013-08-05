@@ -1,0 +1,52 @@
+﻿<section>
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="http://lorempixel.com/1920/500/sports" alt="first slide" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Welcome to ndxr!</h1>
+                        <p>ndxr is the FamilySearch Indexing Challenge site, where you can track your FamilySearch Indexing and challenge your friends and family to top your scores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://lorempixel.com/1920/500/technics" alt="second slide" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Earn achievements and badges!</h1>
+                        <p>As you index more and more records, you can earn achievements and special badges you can use on your website, in forms, on Facebook/Twitter/Pinterest, etc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://lorempixel.com/1920/500/people" alt="third slide" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Have fun while helping millions of people</h1>
+                        <p>Don't know what this FamilySearch Indexing thing is?<a href="https://familysearch.org/volunteer/indexing">Visit the FamilySearch Indexing page for more information.</a> Then come back here and login to start tracking your results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 data-bind="html:displayName"></h2>
+        <blockquote data-bind="html:description"></blockquote>
+        <h3>Features</h3>
+        <ul data-bind="foreach: features">
+            <li data-bind="html: $data"></li>
+        </ul>
+        <div class="alert alert-success">
+            <h4>Read Me Please</h4>
+            For information about this template and for general documenation please visit <a href="http://www.durandaljs.com">the official site</a> and if you can't find
+            answers to your questions there, we hope you will join our <a href="https://groups.google.com/forum/?fromgroups#!forum/durandaljs">google group</a>.
+        </div>
+    </div>
+
+</section>
